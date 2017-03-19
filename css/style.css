@@ -2,14 +2,18 @@
   padding: 0;
   margin: 0;
 }
+
 .main{
-  width:1000px; height: 1500px; background-color: green; margin: 0px auto; padding-top: 20px;
+  width:1000px; height: 1500px; background-color: green; margin: 0px auto; position: absolute;
 }
 .parent{
-width:800px; height: 150px; background-color: black;  margin-bottom:  20px;
+width:800px; height: 150px; background-color: black; margin-top: 20px; display: inline-block;
 }
 .child1{
-width:80px; height: 100px; background-color: yellow;  border: solid 2px red;
+width:80px; height: 100px; background-color: yellow;  border: solid 2px red; margin-top: 20px;display: inline-block;
+}
+.child2{
+width:80px; height: 100px; background-color: red;  border: solid 2px yellow;  display: inline-block; 
 }
 .parent1{
 width:800px; height: 150px; background-color: white;
